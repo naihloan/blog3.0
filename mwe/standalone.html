@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Bien's minimal example</title>
+    <!-- http://adambien.blog/roller/abien/entry/creating_a_customelement_webcomponent_from -->
+</head>
+<body>
+    <h1> Simple Example </h1>
+    <script>
+        class AirHacks extends HTMLElement {
+            connectedCallBack() {
+                this.innerText = "no slides"
+            }
+        }
+        customElements.define("air-hacks", AirHacks);
+    </script>
+    <air-hacks>
+    <air-hacks/>
+</body>
+</html>

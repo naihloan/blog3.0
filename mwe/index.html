@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Caleb's Custom Element From Scratch</title>
+    <!-- https://codepen.io/calebdwilliams/pen/JzjLyQ -->
+</head>
+<body>
+  <h1>Custom Element Example</h1>
+    
+<template id="dialog-template">
+    <script>
+      document.getElementById('launch-dialog').addEventListener('click', () => {
+        const wrapper = document.querySelector('.wrapper');
+        const closeButton = document.querySelector('button.close');
+        const wasFocused = document.activeElement;
+        wrapper.classList.add('open');
+        closeButton.focus();
+        closeButton.addEventListener('click', () => {
+          wrapper.classList.remove('open');
+          wasFocused.focus();
+        });
+      });
+    </script>
+
+    <div class="wrapper">
+    <div class="overlay"></div>
+      <div class="dialog" role="dialog" aria-labelledby="title" aria-describedby="content">
+        <button class="close" aria-label="Close">✖️</button>
+        <h1 id="title">Hello world</h1>
+        <div id="content" class="content">
+          <p>This is content in the body of our modal</p>
+        </div>
+      </div>
+    </div>
+</template>
+  
+  <button id="launch-dialog">Launch dialog</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
