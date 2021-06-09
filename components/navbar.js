@@ -17,6 +17,11 @@ class Navbar extends HTMLElement{
           <span class="navbar-text">
             [anthropology art literature code running] 
           </span>
+          </ul>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">Bio</a>
             </li>
