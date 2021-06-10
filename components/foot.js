@@ -3,7 +3,7 @@ class Footer extends HTMLElement{
         this.id = id;
         this.innerHTML = `
         <!-- Footer -->
-        <footer class="page-footer font-small blue pt-4">
+        <footer class="page-footer font-small blue pt-4 mt-5">
 
           <!-- Copyright -->
           <div class="footer-copyright text-center py-3">

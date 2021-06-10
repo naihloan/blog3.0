@@ -6,7 +6,7 @@ class Items extends HTMLElement{
             <!-- Example row of columns -->
             <div class="row">
 
-              <div class="col-md-4">
+              <div class="col-md-4 my-5">
                 <h2>Bio</h2>
                 <p>sociologist training UX</p>
                 <p><a class="btn btn-secondary bg-light" href="#" role="button">cv &darr;
@@ -14,7 +14,7 @@ class Items extends HTMLElement{
                 </a></p>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-4 my-5">
                 <h2>Vermicomposting</h2>
                 <p>use your green garbage to feed earthworms</p>
                 <p><a class="btn btn-secondary" href="#" role="button">worms freezer cheatsheet &darr;
@@ -24,7 +24,7 @@ class Items extends HTMLElement{
               </div>
               
               <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4 my-5">
                 <h2>Ultra Running</h2>
                 <p>how and why to go so <del>crazy</del> long </p>
                 <p><a class="btn btn-secondary" href="#" role="button">PhD Project &darr;
@@ -32,7 +32,7 @@ class Items extends HTMLElement{
                 </a></p>
               </div>
               
-              <div class="col-md-4">
+              <div class="col-md-4 my-5">
                 <h2>Graffiti and Pixação</h2>
                 <p>urban art in São Paulo, Brazil</p>
                 <p><a class="btn btn-secondary" href="#" role="button">Master Thesis &darr;

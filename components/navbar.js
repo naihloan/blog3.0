@@ -2,7 +2,7 @@ class Navbar extends HTMLElement{
     connectedCallback(id){
         this.id = id;
         this.innerHTML = `
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
         <a class="navbar-brand" href="ramoneando.com">✎ ramoneando.com</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
