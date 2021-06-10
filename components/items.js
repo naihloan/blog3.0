@@ -16,7 +16,7 @@ class Items extends HTMLElement{
 
               <div class="col-md-4 my-5">
                 <h2>Vermicomposting</h2>
-                <p>use your green garbage to feed earthworms</p>
+                <p>use green garbage, feed earthworms</p>
                 <p><a class="btn btn-secondary" href="#" role="button">worms freezer cheatsheet &darr;
                 <span class="glyphicon glyphicon-arrow-down"></span>
                 </a></p>
